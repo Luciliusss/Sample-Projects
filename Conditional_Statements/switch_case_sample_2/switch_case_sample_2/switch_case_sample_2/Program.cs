@@ -34,10 +34,10 @@ namespace switch_case_sample_2
                             Console.WriteLine("Youth");
                             break;
                         case int n when (n >= 30 && n <= 60):
-                            Console.WriteLine("adult");
+                            Console.WriteLine("Adult");
                             break;
                         case int n when (n > 60):
-                            Console.WriteLine("Adult");
+                            Console.WriteLine("Old");
                             break;
                         default:
                             break;
