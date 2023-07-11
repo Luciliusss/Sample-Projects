@@ -7,6 +7,7 @@ namespace array_sample_1
     {
         static void Main(string[] args)
         {
+            //-1
             /*
             int[] number = new int[5];
             int j = 10;
@@ -21,6 +22,7 @@ namespace array_sample_1
 
             /*------------------------------*/
 
+            //-2
             /*
             int[] numbers = { 1, 2, 3, 4, 5};
             int newSize = numbers.Length +1;
@@ -40,6 +42,7 @@ namespace array_sample_1
 
             /*------------------------------*/
 
+            //-3
             /*
             int[] numbers = { 1, 2, 3, 4, 5 };
             Console.WriteLine(numbers[0]);
@@ -55,6 +58,7 @@ namespace array_sample_1
 
             /*------------------------------*/
 
+            //-4
             /*
             int[] numbers = { 5, 2, 1, 3, 4 };
             Array.Sort(numbers);
@@ -68,6 +72,7 @@ namespace array_sample_1
 
             /*------------------------------*/
 
+            //-5
             /*
             int[] numbers = { 1, 2, 3, 4, 5};
             Array.Reverse(numbers);

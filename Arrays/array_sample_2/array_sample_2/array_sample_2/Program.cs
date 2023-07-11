@@ -26,7 +26,7 @@ namespace array_sample_2
             people[1] = new Person("Bob", 35);
             people[2] = new Person("Charlie", 35);
 
-            //
+            //age selection (> 30)
             var selectedPeople = people.Where(p => p.Age > 30);
 
             foreach (var person in selectedPeople)
