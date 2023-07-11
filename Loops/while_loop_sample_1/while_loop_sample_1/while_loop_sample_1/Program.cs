@@ -23,9 +23,9 @@ namespace while_loop_sample_1
             int iprocess;
             bool successg = int.TryParse(sprocess, out iprocess);
             int selection = iprocess;
-            
+
             //addition
-            if (sprocess.ToLower() =="addition" || selection == 1)
+            if (sprocess.ToLower() == "addition" || selection == 1)
             {
                 Console.WriteLine("Please write the number of numbers you want to use in the operation: ");
                 string inputnfn = Console.ReadLine();
@@ -34,7 +34,7 @@ namespace while_loop_sample_1
                 int result = 0;
                 bool success = int.TryParse(inputnfn, out nfn);
 
-                if (inputnfn.ToLower()== "back")
+                if (inputnfn.ToLower() == "back")
                 {
                     goto Start;
                 }
@@ -146,7 +146,7 @@ namespace while_loop_sample_1
                     goto Start;
                 }
 
-                while (success && counter<nfn)
+                while (success && counter < nfn)
                 {
                     Console.WriteLine("Enter a number");
                     string input = Console.ReadLine();
@@ -218,7 +218,7 @@ namespace while_loop_sample_1
                                 Console.WriteLine("Invalid input. Please enter a valid number.");
                             }
                             Console.WriteLine("The result of the divide operation: " + result);
-                            if (counter == numberc-1)
+                            if (counter == numberc - 1)
                             {
                                 goto Start;
                             }
